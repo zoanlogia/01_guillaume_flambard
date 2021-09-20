@@ -219,11 +219,16 @@
   #rent {
     display: flex;
     flex-wrap: wrap-reverse;
+    align-items: center;
+    width: 100%;
+   
   }
 
-  .rent-marseille {
+  .rent-marseille,
+  .rent-popular {
     margin-left: 2rem;
     margin-right: 2rem;
+    width: 100%;
   }
 
   .rent-marseille article {

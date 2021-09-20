@@ -28,7 +28,7 @@
     margin-top: 0.5rem;
   }
 
-  .header h1 {
+  .header .header-logo {
     margin-left: 1rem;
   }
 
@@ -41,6 +41,9 @@
     color: #000;
     text-decoration: none;
     transition: color 0.5s ease;
+    display: block;
+    width: 100%;
+    height: auto;
   }
 
   nav a:hover {
@@ -463,6 +466,9 @@
     color: #000;
     text-decoration: none;
     transition: color 0.5s ease;
+    display: block;
+    width: 100%;
+    height: auto;
   }
 
   nav a:hover {
@@ -973,7 +979,7 @@
     padding-top: 2rem;
   }
 
-  .header h1 {
+  .header .header-logo {
     display: block;
     width: auto;
     margin-left: 1rem;
@@ -988,6 +994,9 @@
     color: #000;
     text-decoration: none;
     transition: color 0.5s ease;
+    display: block;
+    width: 100%;
+    height: auto;
   }
 
   nav a:hover {

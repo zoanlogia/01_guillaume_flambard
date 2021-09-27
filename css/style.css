@@ -226,8 +226,6 @@
 
   .rent-marseille,
   .rent-popular {
-    margin-left: 2rem;
-    margin-right: 2rem;
     width: 100%;
   }
 
@@ -290,6 +288,14 @@
   .rent-popular {
     background: #f2f2f2;
     padding-bottom: 1.5rem;
+    width: 100%;
+  }
+
+  .title-popular {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: .5em;
   }
 
   .rent-popular header {
@@ -735,10 +741,18 @@
   .rent-popular {
     background: #f2f2f2;
     padding-bottom: 2.5rem;
+    border-radius: 20px;
   }
 
   .rent-popular h2 {
     margin-top: auto;
+  }
+
+  .title-popular {
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    margin: 1.5em;
   }
 
   .rent-popular header {
@@ -1272,6 +1286,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+  }
+
+  .title-popular {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1em;
   }
 
   .rent-popular header {
